@@ -235,7 +235,7 @@ http_write(int acceptSocket, short revents, void *c)
 	char *url, *statusLine, *headers, *body, httpTime[80], contentLength[80], lastModified[80];
 	int headersLength;
 	
-	char serverLine[] = "Server: mirrord/s4174126\r\n";
+	char serverLine[] = "Server: mirrord/XXXXXXX\r\n";
 	char connectionLine[] = "Connection: close\r\n";
 	char headerEnd[] = "\r\n";
 	
